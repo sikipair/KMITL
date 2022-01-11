@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #141414;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 1.5rem;
+}
+
+.navbar__logo img {
+  width: 8rem;
+  position: relative;
+  left: 0.5rem;
+}
+
+/* CONTAINER */
+
+.container__lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+}
