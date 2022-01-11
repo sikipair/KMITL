@@ -14,13 +14,14 @@ html {
 
 /* NAVBAR */
 .navbar {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .navbar__logo img {
-  width: 6.5rem;
+  width: 7rem;
   position: relative;
-  left: 0.5rem;
+  left: 1rem;
+  top: 0.5rem;
 }
 
 /* CONTAINER */
@@ -30,10 +31,51 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 62rem;
 }
 
+.title__lists {
+  margin-bottom: 1.5rem;
+}
 .title {
   font-size: 2.5rem;
-  color: white;
-  font-weight: 500;
+  color: #9d9d9d;
+  font-weight: 700;
+}
+
+.card__lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.lists__img img {
+  width: 9rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #9d9d9d;
+}
+.lists__img :hover {
+  border: 3px solid #3d61ff;
+}
+
+.lists {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+.card :hover {
+  color: #3d61ff;
 }
