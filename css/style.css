@@ -154,21 +154,25 @@ html {
   width: 100%;
   max-height: 0;
   overflow: hidden;
+  margin: 1rem;
 }
 .lists2 a:hover {
-  color: #3d61ff;
+  color: white;
 }
 .lists2 a {
   font-size: 1.5rem;
   margin: 0 1rem;
-  color: rgb(134, 134, 134);
+  color: #747474;
   text-decoration: none;
 }
 
 .expand .navbar2__lists {
   max-height: 100vh;
   position: relative;
-  text-align: end;
+  text-align: center;
+}
+.expand .lists2 {
+  margin: 1rem;
 }
 .navbar2__bar {
   cursor: pointer;
@@ -200,8 +204,8 @@ html {
     align-items: center;
   }
   .lists2 a {
-    font-size: 2.4rem;
-    margin: 0 1rem;
+    font-size: 2.3rem;
+    margin: 0 2rem;
   }
 
   .navbar2__bar {

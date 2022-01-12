@@ -17,6 +17,34 @@
     />
   </head>
   <body>
+    <div class="navbar2" id="navbar">
+      <div class="navbar2__logo">
+        <img src="../asset/logo.png" alt="" />
+      </div>
+      <div class="navbar2__bar" onclick="addClass()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="navbar2__lists">
+        <div class="lists2">
+          <a href="../index.html">Home</a>
+        </div>
+        <div class="lists2">
+          <a href="profile.html">Profile</a>
+        </div>
+        <div class="lists2">
+          <a href="activity.html">Activity</a>
+        </div>
+        <div class="lists2">
+          <a href="certificate.html">Certificate</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      const addClass = () => {
+        const navbar = document.getElementById("navbar");
+        navbar.classList.toggle("expand");
+      };
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
   </body>
 </html>
