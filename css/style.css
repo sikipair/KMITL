@@ -249,7 +249,7 @@ html {
 .profile__img img {
   width: 20rem;
   border-radius: 15px;
-  border: 3px solid #adf27c;
+  border: 3px solid #ee593b;
 }
 
 .canva {
@@ -288,7 +288,7 @@ html {
   }
   .profile__img img {
     width: 40rem;
-    border: 5px solid #adf27c;
+    border: 5px solid #ee593b;
   }
 
   .canva__img img {
