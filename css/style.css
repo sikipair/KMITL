@@ -262,8 +262,8 @@ html {
 }
 
 .canva__img img {
-  width: 28rem;
-  height: 16rem;
+  width: 34rem;
+  height: 20rem;
   margin-top: 3rem;
 }
 @media screen and (min-width: 768px) {
