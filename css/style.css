@@ -71,7 +71,7 @@ html {
 }
 
 .lists__img img {
-  width: 7.2rem;
+  width: 8rem;
   border-radius: 10px;
   padding: 1rem;
   background-color: #e5e5e5;
@@ -82,9 +82,10 @@ html {
 }
 
 .lists a {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #747474;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .lists__btn {
@@ -317,23 +318,31 @@ html {
 .certificate__title1 {
   color: #747474;
   font-size: 1.7rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
-.certificate__card {
-}
+
 .certificate__box {
   border: 1px solid #747474;
   margin-bottom: 3rem;
   width: 30rem;
 }
+
 .certificate__box img {
+  cursor: pointer;
 }
+
 .certificate__text {
-  color: #fff;
+  color: #ee593b;
   font-size: 1.7rem;
+  padding: 1rem;
 }
 .certificate__btn {
-  color: #747474;
-  font-size: 1.3rem;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
 }
 
 /* CONTACT */
