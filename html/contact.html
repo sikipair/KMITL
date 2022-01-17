@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Contact</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../asset/iconlogo.jpg" />
+    <script
+      src="https://kit.fontawesome.com/cff67f5b89.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar2" id="navbar">
+      <div class="navbar2__logo">
+        <img src="../asset/logo.png" alt="" />
+      </div>
+      <div class="navbar2__bar" onclick="addClass()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="navbar2__lists">
+        <div class="lists2">
+          <a href="../index.html">Home</a>
+        </div>
+        <div class="lists2">
+          <a href="profile.html">Profile</a>
+        </div>
+        <div class="lists2">
+          <a href="certificate.html">Certificate</a>
+        </div>
+        <div class="lists2">
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contact__text">
+        <div class="contact__title">My Contact</div>
+      </div>
+      <div class="contact__card__container">
+        <div class="contact__card">
+          <div class="contact__bar">
+            <i class="fab fa-line"></i>
+          </div>
+          <div class="contact__btn">ID : kamollukseaaungpair.</div>
+        </div>
+        <div class="contact__card">
+          <div class="contact__bar">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="contact__btn">_pair_r</div>
+        </div>
+        <div class="contact__card">
+          <div class="contact__bar">
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div class="contact__btn">Pair kamolluk</div>
+        </div>
+        <div class="contact__card">
+          <div class="contact__bar">
+            <i class="far fa-envelope"></i>
+          </div>
+          <div class="contact__btn">pairkamolluk@gmail.com</div>
+        </div>
+        <div class="contact__card">
+          <div class="contact__bar">
+            <i class="fas fa-phone-square-alt"></i>
+          </div>
+          <div class="contact__btn">061-7362332</div>
+        </div>
+        <div class="contact__card">
+          <div class="contact__bar">
+            <i class="fab fa-twitter-square"></i>
+          </div>
+          <div class="contact__btn">sikipair</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const addClass = () => {
+        const navbar = document.getElementById("navbar");
+        navbar.classList.toggle("expand");
+      };
+    </script>
+  </body>
+</html>

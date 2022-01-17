@@ -136,6 +136,7 @@ html {
   padding: 1rem;
   position: fixed;
   width: 100%;
+  top: -0rem;
 }
 
 .navbar2__logo img {
@@ -297,5 +298,93 @@ html {
   }
   .canva__img {
     margin-bottom: 5rem;
+  }
+}
+
+/* CONTACT */
+.contact {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+}
+.contact__card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.contact__card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 29rem;
+  height: 29rem;
+  background-color: #da5c45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 55px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contact__bar {
+  width: 21rem;
+  margin-bottom: 2rem;
+  background-color: #141414;
+  color: white;
+  border-radius: 40px;
+  height: 18.5rem;
+  text-align: center;
+  font-size: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__btn {
+  width: 23rem;
+  height: 5rem;
+  font-size: 1.6rem;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+@media screen and (min-width: 768px) {
+  .contact__card__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  .contact__title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .contact__card {
+    margin: 2rem 7rem;
+    width: 33rem;
+    height: 33rem;
+  }
+  .contact__btn {
+    font-size: 2.2rem;
+    width: 30rem;
+    height: 6rem;
+    margin-top: 1rem;
   }
 }
