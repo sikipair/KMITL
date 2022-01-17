@@ -301,6 +301,41 @@ html {
   }
 }
 
+/* CERTIFICATE */
+.certificate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.certificate__title {
+  margin-top: 8.5rem;
+  color: #e5e5e5;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.certificate__title1 {
+  color: #747474;
+  font-size: 1.7rem;
+}
+.certificate__card {
+}
+.certificate__box {
+  border: 1px solid #747474;
+  margin-bottom: 3rem;
+  width: 30rem;
+}
+.certificate__box img {
+}
+.certificate__text {
+  color: #fff;
+  font-size: 1.7rem;
+}
+.certificate__btn {
+  color: #747474;
+  font-size: 1.3rem;
+}
+
 /* CONTACT */
 .contact {
   margin-top: 1.5rem;
