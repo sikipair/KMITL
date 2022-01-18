@@ -306,6 +306,8 @@ html {
   }
 }
 
+/* ACTIVITY */
+
 /* CERTIFICATE */
 .certificate {
   display: flex;
@@ -379,8 +381,6 @@ html {
     font-size: 1.8rem;
   }
 }
-
-/* ACTIVITY */
 
 /* CONTACT */
 .contact {
